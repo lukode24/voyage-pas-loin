@@ -1,0 +1,38 @@
+
+/* on cache les fond et on met le texte en noir */
+* {
+    background : transparent !important;
+    color : #000 !important;
+    box-shadow : none !important; 
+    text-shadow : none !important;
+}
+
+a::after {
+    content: " [ "attr(href) " ]";
+}
+
+/* trouver s'il est possible de transformer une image en noir et blanc */
+img {
+    filter: grayscale(1);
+}
+
+/* les éléments que l'on veut masquer */
+header, iframe, .footer-list, .footer-logo {
+    display: none;
+}
+
+article {
+    page-break-after:avoid !important;
+} 
+
+.stats-list {
+    display:flex;
+}
+
+.stats-element {
+    border: 1px solid black;
+}
+
+.iframe-link {
+    display: block
+}

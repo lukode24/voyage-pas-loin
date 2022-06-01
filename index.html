@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Accueil - Voyage...pas loin</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/print.css" media="print">
+    </head>
+    <body class="site">
+        <header class="site-header" role="banner">
+            <!-- Lien d'évitement -->
+            <div class="skip-link">
+                <a href="#main" class="link-arrow">Aller au contenu</a>
+            </div>
+            <div class="max-content">
+                <div class="header-logo">
+                    <a href="index.html">
+                        <img src="./assets/images/logo.svg" alt="Voyage...pas loin" width="120" height="40">
+                    </a>
+                </div>
+                <!-- Emmet : nav.navigation>ul.navigation-list>li.navigation-element*5>a.navigation-link-->
+                <nav class="navigation" role="navigation">
+                    <ul class="navigation-list">
+                        <li class="navigation-element" aria-current="page"><a href="./index.html" class="navigation-link">Accueil</a></li>
+                        <li class="navigation-element"><a href="./ou-voyager-plus-loin.html" class="navigation-link">Où voyager pas loin ?</a></li>
+                        <li class="navigation-element"><a href="./bien-voyager.html" class="navigation-link">Bien voyager</a></li>
+                        <li class="navigation-element"><a href="./faq.html" class="navigation-link">FAQ</a></li>
+                        <li class="navigation-element"><a href="./contact.html" class="navigation-link">Nous contacter</a></li>
+                    </ul>
+                    <!-- l'élément button permet d'afficher ou de cacher le menu -->
+                    <button type="button" class="navigation-toggle" aria-controls="menu">
+                        <span class="navigation-toggle__text">menu</span>
+                        <span class="navigation-toggle__button">
+                            <span class="navigation-toggle__bar"></span>
+                            <span class="navigation-toggle__bar"></span>
+                            <span class="navigation-toggle__bar"></span>
+                        </span>
+                    </button>
+                </nav>
+            </div>
+        </header>
+        <main class="site-main" role="main" id="main">
+            <section class="section section-selected-destination">
+                <div class="max-content">
+                    <div class="column1">
+                        <h1>À la découverte des plus belles destinations près de chez vous</h1>
+                        <p>
+                            Envie de vous évader sans prendre l'avion, ni passer de longues heures dans la voiture ? Pas besoin de passer la frontière pour découvrir des paysages enchanteurs, des monuments mythiques ou des plages paradisiaques…
+                        </p>
+                        <!-- Emmet a.link-cta.link-cta-primary -->
+                        <a href="" class="link-cta link-cta-primary">Contactez-nous</a>
+                        <a href="" class="link-cta link-cta-secondary">FAQ</a>
+                    </div><!--
+                 --><div class="column2">
+                        <figure class="image-legend">
+                            <img src="./assets/images/canal-colmar-610x408.jpg" alt="le canal de Colmar" class="image">
+                            <figcaption>
+                                Canal à travers Colmar<br>
+                                Crédit photo : no_limit_pictures
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+            <!-- Emmet : section.section.section-statistics>ul.stats-list>li.stats-element*4 -->
+            <section class="section section-statistics">
+                <div class="max-content">
+                    <ul class="stats-list">
+                        aergvaegr
+                        <li class="stats-element">
+                            <span class="stats-nb">200</span>
+                            <span class="stats-label">villages de charme</span>
+                        </li>
+                        <li class="stats-element">
+                            <span class="stats-nb">50</span>
+                            <span class="stats-label">pépites choisies par nos soins</span>
+                        </li>
+                        <li class="stats-element">
+                            <span class="stats-nb">11</span>
+                            <span class="stats-label">experts et expertes à votre écoute</span>
+                        </li>
+                        <li class="stats-element">
+                            <span class="stats-nb">130</span>
+                            <span class="stats-label">circuits d’exception</span>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section section-video">
+                <div class="max-content">
+                    <h2>Découvrez les 10 endroits en France
+                    </h2>
+                    <iframe width="1250" height="706" src="https://www.youtube.com/embed/rETpXdTbAzo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="iframe-link">https://www.youtube.com/watch?v=rETpXdTbAzo</div>
+                    <p class="video-transcription">
+                        <a class="link-arrow" href="">Transcription textuelle de la vidéo
+                        </a>
+                    </p>
+                </div>
+            </section>
+            <!-- Emmet : section.section.section-locations>h2+article.place*3>h3.place-title+img.place-img+p+a.link-cta.link-cta-primary{Découvrir} -->
+            <section class="section section-locations">
+                <div class="max-content">
+                    <h2>Lieux à la une</h2>
+                    <article class="place">
+                        <h3 class="place-title">Les Alpes en vue</h3>
+                        <img src="./assets/images/image-alpes.jpg" alt="" class="place-img">
+                        <div class="place-content">
+                            <p>Fines lames et vieux couteaux à Saint-Jean-de-Maurienne, les fadas du démon à Bessans, etc.</p>
+                            <a href="" class="link-cta link-cta-primary">Découvrir</a>
+                        </div>
+                    </article><!-- 
+                    --><article class="place">
+                        <h3 class="place-title">Cap à l'ouest
+                        </h3>
+                        <img src="./assets/images/image-bretagne.jpg" alt="" class="place-img">
+                        <div class="place-content">
+                            <p>Des menhirs et un manoir à Camaret-sur-Mer, les maisons fantômes de Guerlédan à Mûr-de-Bretagne, etc.</p>
+                            <a href="" class="link-cta link-cta-primary">Découvrir</a>
+                        </div>
+                    </article><!-- 
+                    --><article class="place">
+                        <h3 class="place-title">Autour de Paris
+                        </h3>
+                        <img src="./assets/images/image-rambouillet.jpg" alt="" class="place-img">
+                        <div class="place-content">
+                            <p>Rodin intime à Meudon, le brame du cerf au fond des bois à Rambouillet, etc.</p>
+                        <a href="" class="link-cta link-cta-primary">Découvrir</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <!-- Emmet : section.section.section-slogan>div.image-background>p.slogan-text -->
+            <section class="section section-slogan">
+                <div class="max-content">
+                    <div class="image-background">
+                        <p class="slogan-text image-background-text">
+                            <span>Avec Voyage… pas loin,</span>
+                            <span>voyagez pas loin de chez vous</span>
+                            <span>mais l’esprit loin !</span>
+                        </p>
+                    </div>
+                    <p class="slogan-text text-after-image">
+                        <span>Avec Voyage… pas loin,</span>
+                        <span>voyagez pas loin de chez vous</span>
+                        <span>mais l’esprit loin !</span>
+                    </p>
+                </div>
+            </section>
+        </main>
+        <footer class="site-footer" role="contentinfo">
+            <div class="max-content">
+                <div class="footer-logo">
+                    <a href="index.html">
+                        <img src="./assets/images/logo.svg" alt="Voyage...pas loin" width="187" height="63">
+                    </a>
+                </div><!-- 
+                --><ul class="footer-list">
+                    <li class="footer-list-element"><a href="" class="footer-list-link">Accueil</a></li>
+                    <li class="footer-list-element"><a href="" class="footer-list-link">Où voyager pas loin ?
+                    </a></li>
+                    <li class="footer-list-element"><a href="" class="footer-list-link">Bien voyager
+                    </a></li>
+                    <li class="footer-list-element"><a href="" class="footer-list-link">FAQ</a></li>
+                    <li class="footer-list-element"><a href="" class="footer-list-link">Nous contacter
+                    </a></li>
+                </ul><!-- 
+                --><ul class="footer-list">
+                    <li class="footer-list-element"><a href="" class="footer-list-link">Accessibilité</a></li>
+                    <li class="footer-list-element"><a href="" class="footer-list-link">Mentions légales</a></li>
+                </ul><!-- 
+                --><div class="footer-networks">
+                    <p class="footer-follow">Suivez-nous !</p>
+                    <ul class="networks-list">
+                        <li class="networks-element">
+                            <a class="network-link" href="https://www.instagram.com/voyage.pas.loin/" title="Instagram Voyage...pas loin">
+                                <img src="./assets/images/logo-instagram.png" alt="Instagram">
+                            </a>
+                        </li>
+                        <li class="networks-element">
+                            <a class="network-link" href="https://www.facebook.com/voyage.pas.loin/" title="Facebook Voyage...pas loin">
+                                <img src="./assets/images/logo-facebook.png" alt="Facebook">
+                            </a>
+                        </li>
+                        <li class="networks-element">
+                            <a class="network-link" href="https://twitter.com/voyagepasloin/" title="Twitter Voyage...pas loin">
+                                <img src="./assets/images/logo-twitter.png" alt="Twitter">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
